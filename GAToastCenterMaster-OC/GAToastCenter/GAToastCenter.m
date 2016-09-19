@@ -140,10 +140,15 @@ static const NSString * GAMessageViewStyleKey = @"GAMessageViewStyleKey";
 
 }
 
-#pragma mark 2.2  msg的显示与隐藏.
+#pragma mark 2.2  MessageView的显示
 + (void)showMessage:(NSString *)msg atTargetView :(UIView *)view {
   GAToastStyle *style = [GAToastStyle defaultStyle];
   [self showMessage:msg atTargetView:view style:style completion:nil];
+}
+
++ (void)showMessage:(NSString *)msg atTargetView:(UIView *)view completion:(void (^)(BOOL))completion {
+  GAToastStyle *style = [GAToastStyle defaultStyle];
+  [self showMessage:msg atTargetView:view style:style completion:completion];
 }
 
 //这个是showMsg系列的最终方法.
