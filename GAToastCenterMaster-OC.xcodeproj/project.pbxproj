@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4C0DF21D8901AB0033DB4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0DF11D8901AB0033DB4A /* main.m */; };
+		DC4C0DF51D8901AB0033DB4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0DF41D8901AB0033DB4A /* AppDelegate.m */; };
+		DC4C0DF81D8901AB0033DB4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0DF71D8901AB0033DB4A /* ViewController.m */; };
+		DC4C0DFD1D8901AB0033DB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4C0DFC1D8901AB0033DB4A /* Assets.xcassets */; };
+		DC4C0E001D8901AB0033DB4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4C0DFE1D8901AB0033DB4A /* LaunchScreen.storyboard */; };
+		DC4C0E0C1D8902AC0033DB4A /* GAToastCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0E091D8902AC0033DB4A /* GAToastCenter.m */; };
+		DC4C0E0D1D8902AC0033DB4A /* GAToastStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0E0B1D8902AC0033DB4A /* GAToastStyle.m */; };
+		DC4C0E111D89247C0033DB4A /* DefaultActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0E101D89247C0033DB4A /* DefaultActivityView.m */; };
+		DC4C0E131D8924AC0033DB4A /* DefaultActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4C0E121D8924AC0033DB4A /* DefaultActivityView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC4C0DED1D8901AB0033DB4A /* GAToastCenterMaster-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GAToastCenterMaster-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4C0DF11D8901AB0033DB4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC4C0DF31D8901AB0033DB4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC4C0DF41D8901AB0033DB4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC4C0DF61D8901AB0033DB4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC4C0DF71D8901AB0033DB4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC4C0DFC1D8901AB0033DB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4C0DFF1D8901AB0033DB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC4C0E011D8901AB0033DB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4C0E081D8902AC0033DB4A /* GAToastCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAToastCenter.h; sourceTree = "<group>"; };
+		DC4C0E091D8902AC0033DB4A /* GAToastCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAToastCenter.m; sourceTree = "<group>"; };
+		DC4C0E0A1D8902AC0033DB4A /* GAToastStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAToastStyle.h; sourceTree = "<group>"; };
+		DC4C0E0B1D8902AC0033DB4A /* GAToastStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAToastStyle.m; sourceTree = "<group>"; };
+		DC4C0E0F1D89247C0033DB4A /* DefaultActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultActivityView.h; sourceTree = "<group>"; };
+		DC4C0E101D89247C0033DB4A /* DefaultActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultActivityView.m; sourceTree = "<group>"; };
+		DC4C0E121D8924AC0033DB4A /* DefaultActivityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultActivityView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4C0DEA1D8901AB0033DB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4C0DE41D8901AB0033DB4A = {
+			isa = PBXGroup;
+			children = (
+				DC4C0DEF1D8901AB0033DB4A /* GAToastCenterMaster-OC */,
+				DC4C0DEE1D8901AB0033DB4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4C0DEE1D8901AB0033DB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C0DED1D8901AB0033DB4A /* GAToastCenterMaster-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4C0DEF1D8901AB0033DB4A /* GAToastCenterMaster-OC */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C0E071D8902020033DB4A /* GAToastCenter */,
+				DC4C0DF31D8901AB0033DB4A /* AppDelegate.h */,
+				DC4C0DF41D8901AB0033DB4A /* AppDelegate.m */,
+				DC4C0DF61D8901AB0033DB4A /* ViewController.h */,
+				DC4C0DF71D8901AB0033DB4A /* ViewController.m */,
+				DC4C0DFC1D8901AB0033DB4A /* Assets.xcassets */,
+				DC4C0DFE1D8901AB0033DB4A /* LaunchScreen.storyboard */,
+				DC4C0E011D8901AB0033DB4A /* Info.plist */,
+				DC4C0DF01D8901AB0033DB4A /* Supporting Files */,
+			);
+			path = "GAToastCenterMaster-OC";
+			sourceTree = "<group>";
+		};
+		DC4C0DF01D8901AB0033DB4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C0DF11D8901AB0033DB4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC4C0E071D8902020033DB4A /* GAToastCenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C0E0E1D89245D0033DB4A /* DefaultActivityView */,
+				DC4C0E081D8902AC0033DB4A /* GAToastCenter.h */,
+				DC4C0E091D8902AC0033DB4A /* GAToastCenter.m */,
+				DC4C0E0A1D8902AC0033DB4A /* GAToastStyle.h */,
+				DC4C0E0B1D8902AC0033DB4A /* GAToastStyle.m */,
+			);
+			path = GAToastCenter;
+			sourceTree = "<group>";
+		};
+		DC4C0E0E1D89245D0033DB4A /* DefaultActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C0E0F1D89247C0033DB4A /* DefaultActivityView.h */,
+				DC4C0E101D89247C0033DB4A /* DefaultActivityView.m */,
+				DC4C0E121D8924AC0033DB4A /* DefaultActivityView.xib */,
+			);
+			path = DefaultActivityView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4C0DEC1D8901AB0033DB4A /* GAToastCenterMaster-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4C0E041D8901AB0033DB4A /* Build configuration list for PBXNativeTarget "GAToastCenterMaster-OC" */;
+			buildPhases = (
+				DC4C0DE91D8901AB0033DB4A /* Sources */,
+				DC4C0DEA1D8901AB0033DB4A /* Frameworks */,
+				DC4C0DEB1D8901AB0033DB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GAToastCenterMaster-OC";
+			productName = "GAToastCenterMaster-OC";
+			productReference = DC4C0DED1D8901AB0033DB4A /* GAToastCenterMaster-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4C0DE51D8901AB0033DB4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GikkiAres;
+				TargetAttributes = {
+					DC4C0DEC1D8901AB0033DB4A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DC4C0DE81D8901AB0033DB4A /* Build configuration list for PBXProject "GAToastCenterMaster-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4C0DE41D8901AB0033DB4A;
+			productRefGroup = DC4C0DEE1D8901AB0033DB4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4C0DEC1D8901AB0033DB4A /* GAToastCenterMaster-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4C0DEB1D8901AB0033DB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4C0E001D8901AB0033DB4A /* LaunchScreen.storyboard in Resources */,
+				DC4C0E131D8924AC0033DB4A /* DefaultActivityView.xib in Resources */,
+				DC4C0DFD1D8901AB0033DB4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4C0DE91D8901AB0033DB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4C0DF81D8901AB0033DB4A /* ViewController.m in Sources */,
+				DC4C0E111D89247C0033DB4A /* DefaultActivityView.m in Sources */,
+				DC4C0DF51D8901AB0033DB4A /* AppDelegate.m in Sources */,
+				DC4C0E0C1D8902AC0033DB4A /* GAToastCenter.m in Sources */,
+				DC4C0E0D1D8902AC0033DB4A /* GAToastStyle.m in Sources */,
+				DC4C0DF21D8901AB0033DB4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC4C0DFE1D8901AB0033DB4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4C0DFF1D8901AB0033DB4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4C0E021D8901AB0033DB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC4C0E031D8901AB0033DB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4C0E051D8901AB0033DB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GAToastCenterMaster-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Explorer.GAToastCenterMaster-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC4C0E061D8901AB0033DB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GAToastCenterMaster-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Explorer.GAToastCenterMaster-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4C0DE81D8901AB0033DB4A /* Build configuration list for PBXProject "GAToastCenterMaster-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4C0E021D8901AB0033DB4A /* Debug */,
+				DC4C0E031D8901AB0033DB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4C0E041D8901AB0033DB4A /* Build configuration list for PBXNativeTarget "GAToastCenterMaster-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4C0E051D8901AB0033DB4A /* Debug */,
+				DC4C0E061D8901AB0033DB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4C0DE51D8901AB0033DB4A /* Project object */;
+}
