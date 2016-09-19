@@ -195,7 +195,6 @@ static const NSString * GAMessageViewStyleKey = @"GAMessageViewStyleKey";
   msgView.backgroundColor = style.backgroundColor;
   
     UILabel * messageLabel = [[UILabel alloc] init];
-    messageLabel.numberOfLines = style.messageNumberOfLines;
     messageLabel.font = style.messageFont;
     messageLabel.textAlignment = style.messageAlignment;
     messageLabel.lineBreakMode = NSLineBreakByTruncatingTail;

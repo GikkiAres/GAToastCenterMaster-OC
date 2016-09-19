@@ -23,15 +23,15 @@ typedef NS_ENUM(NSUInteger, GAToastPosition) {
  */
 @property (strong, nonatomic) UIColor *backgroundColor;
 
-/**
- The title color. Default is `[UIColor whiteColor]`.
- */
-@property (strong, nonatomic) UIColor *titleColor;
+
 
 /**
  The message color. Default is `[UIColor whiteColor]`.
  */
 @property (strong, nonatomic) UIColor *messageColor;
+
+
+
 
 /**
  A percentage value from 0.0 to 1.0, representing the maximum width of the toast
@@ -64,35 +64,20 @@ typedef NS_ENUM(NSUInteger, GAToastPosition) {
  */
 @property (assign, nonatomic) CGFloat cornerRadius;
 
-/**
- The title font. Default is `[UIFont boldSystemFontOfSize:16.0]`.
- */
-@property (strong, nonatomic) UIFont *titleFont;
+
 
 /**
  The message font. Default is `[UIFont systemFontOfSize:16.0]`.
  */
 @property (strong, nonatomic) UIFont *messageFont;
 
-/**
- The title text alignment. Default is `NSTextAlignmentLeft`.
- */
-@property (assign, nonatomic) NSTextAlignment titleAlignment;
 
 /**
  The message text alignment. Default is `NSTextAlignmentLeft`.
  */
 @property (assign, nonatomic) NSTextAlignment messageAlignment;
 
-/**
- The maximum number of lines for the title. The default is 0 (no limit).
- */
-@property (assign, nonatomic) NSInteger titleNumberOfLines;
-
-/**
- The maximum number of lines for the message. The default is 0 (no limit).
- */
-@property (assign, nonatomic) NSInteger messageNumberOfLines;
+#pragma mark 阴影
 
 /**
  Enable or disable a shadow on the toast view. Default is `NO`.
@@ -120,44 +105,26 @@ typedef NS_ENUM(NSUInteger, GAToastPosition) {
  */
 @property (assign, nonatomic) CGSize shadowOffset;
 
-/**
- The image size. The default is `CGSizeMake(80.0, 80.0)`.
- */
-@property (assign, nonatomic) CGSize imageSize;
-
-/**
- The size of the toast activity view when `makeToastActivity:` is called.
- Default is `CGSizeMake(100.0, 100.0)`.
- */
-@property (assign, nonatomic) CGSize activitySize;
+#pragma mark 时间
 
 /**
  The fade in/out animation duration. Default is 0.2.
  */
 @property (assign, nonatomic) NSTimeInterval fadeDuration;
+@property (nonatomic,assign)NSTimeInterval showDuration;
 
-/**
- Creates a new instance of `CSToastStyle` with all the default values set.
- */
-+ (instancetype)defaultStyle;
-//NS_DESIGNATED_INITIALIZER;
-
-/**
- @warning Only the designated initializer should be used to create
- an instance of `CSToastStyle`.
- */
-//- (instancetype)init NS_UNAVAILABLE;
+#pragma mark flag
 
 //在显示activity的时候,是否加一个保护层
 @property (nonatomic,assign)BOOL isProtectedWhenActivityViewIsShown;
 //activityView是否显示GAToastStyle中配置的样式.
 @property (nonatomic,assign)BOOL isActivityViewUseCenterAppearanceStyle;
-
-#pragma mark 显示的时间和位置
-@property (nonatomic,assign)NSTimeInterval showDuration;
-@property (nonatomic,assign)GAToastPosition position;
-
 @property (assign, nonatomic) BOOL shouldDismissWhenTapped;
 @property (assign, nonatomic) BOOL shouldShowMessageInQueue;
+
+#pragma mark 位置
+@property (nonatomic,assign)GAToastPosition position;
+
++ (instancetype)defaultStyle;
 
 @end
