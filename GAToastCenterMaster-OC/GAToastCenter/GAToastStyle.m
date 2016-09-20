@@ -43,7 +43,8 @@
     _defaultStyle.position = GAToastPositionCenter;
     _defaultStyle.shouldDismissWhenTapped = YES;
     _defaultStyle.shouldShowMessageInQueue = YES;
-
+    _defaultStyle.shouldActivityViewShowText = YES;
+    _defaultStyle.activityViewText = @"正在加载...";
     
   }
   return _defaultStyle;

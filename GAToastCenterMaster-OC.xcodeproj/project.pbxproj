@@ -15,7 +15,6 @@
 		DC4C0E0C1D8902AC0033DB4A /* GAToastCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0E091D8902AC0033DB4A /* GAToastCenter.m */; };
 		DC4C0E0D1D8902AC0033DB4A /* GAToastStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0E0B1D8902AC0033DB4A /* GAToastStyle.m */; };
 		DCAFF4D01D90C63B00495FFB /* DefaultActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFF4CE1D90C63B00495FFB /* DefaultActivityView.m */; };
-		DCAFF4D11D90C63B00495FFB /* DefaultActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCAFF4CF1D90C63B00495FFB /* DefaultActivityView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +33,6 @@
 		DC4C0E0B1D8902AC0033DB4A /* GAToastStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAToastStyle.m; sourceTree = "<group>"; };
 		DCAFF4CD1D90C63B00495FFB /* DefaultActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultActivityView.h; sourceTree = "<group>"; };
 		DCAFF4CE1D90C63B00495FFB /* DefaultActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultActivityView.m; sourceTree = "<group>"; };
-		DCAFF4CF1D90C63B00495FFB /* DefaultActivityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultActivityView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 			children = (
 				DCAFF4CD1D90C63B00495FFB /* DefaultActivityView.h */,
 				DCAFF4CE1D90C63B00495FFB /* DefaultActivityView.m */,
-				DCAFF4CF1D90C63B00495FFB /* DefaultActivityView.xib */,
 			);
 			path = DefaultActivityView;
 			sourceTree = "<group>";
@@ -168,7 +165,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4C0E001D8901AB0033DB4A /* LaunchScreen.storyboard in Resources */,
-				DCAFF4D11D90C63B00495FFB /* DefaultActivityView.xib in Resources */,
 				DC4C0DFD1D8901AB0033DB4A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

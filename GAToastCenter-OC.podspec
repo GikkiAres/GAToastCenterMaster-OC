@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GAToastCenter-OC"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "This is a toast."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source       = { :git => "http://EXAMPLE/GAToastCenter-OC.git", :tag => "0.0.1" }
-s.source       = { :git => "https://github.com/GikkiAres/GAToastCenterMaster-OC.git", :tag => "0.0.2" }
+s.source       = { :git => "https://github.com/GikkiAres/GAToastCenterMaster-OC.git", :tag => "0.0.3" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -90,7 +90,7 @@ s.source       = { :git => "https://github.com/GikkiAres/GAToastCenterMaster-OC.
   #
 #s.source_files = "GAToastCenterMaster-OC/*"
 #s.source_files  = "GAToastCenterMaster-OC", "GAToastCenterMaster-OC/**/*.{h,m}"
-s.source_files = "GAToastCenterMaster-OC/GAToastCenter/*"
+s.source_files = "GAToastCenterMaster-OC/GAToastCenter/*","GAToastCenterMaster-OC/GAToastCenter/DefaultActivityView/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

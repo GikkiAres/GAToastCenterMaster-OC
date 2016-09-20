@@ -122,6 +122,10 @@ typedef NS_ENUM(NSUInteger, GAToastPosition) {
 @property (assign, nonatomic) BOOL shouldDismissWhenTapped;
 @property (assign, nonatomic) BOOL shouldShowMessageInQueue;
 
+//activityView是否显示文字
+@property(assign,nonatomic) BOOL shouldActivityViewShowText;
+@property(nonatomic,strong) NSString *activityViewText;
+
 #pragma mark 位置
 @property (nonatomic,assign)GAToastPosition position;
 

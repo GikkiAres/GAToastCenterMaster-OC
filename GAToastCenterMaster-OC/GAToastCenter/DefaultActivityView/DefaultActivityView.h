@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GAToastStyle.h"
 
 @interface DefaultActivityView : UIView
+
+- (instancetype)initWithToastStyle:(GAToastStyle *)style;
 
 @end

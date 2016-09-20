@@ -7,6 +7,7 @@
 //
 
 #import "GAToastCenter.h"
+#import "DefaultActivityView.h"
 
 #import <objc/runtime.h>
 
@@ -68,7 +69,8 @@ static const NSString * GAMessageViewStyleKey = @"GAMessageViewStyleKey";
       [view addSubview:protectorView];
       objc_setAssociatedObject(view, &GAProtectorViewKey, protectorView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
-    UIView *activityView = [self loadDefaultActivityView];
+    UIView *activityView = [[DefaultActivityView alloc ]initWithToastStyle:style];
+
     [view addSubview:activityView];
     objc_setAssociatedObject(view, &GAActivityViewKey, activityView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     objc_setAssociatedObject(view, &GAActivityViewCountKey, @(1), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
@@ -105,11 +107,7 @@ static const NSString * GAMessageViewStyleKey = @"GAMessageViewStyleKey";
   [self showActivityViewAtTargetView:view style:style];
 }
 
-#pragma mark 加载默认ActivityView
-+ (UIView *)loadDefaultActivityView {
-  UIView *acitivityView = [[[NSBundle mainBundle]loadNibNamed:@"DefaultActivityView" owner:nil options:nil]firstObject];
-  return acitivityView;
- }
+
 
 + (void)hideActivityViewAtTargetView:(UIView *)view {
    UIView *activityView = objc_getAssociatedObject(view, &GAActivityViewKey);
@@ -201,6 +199,7 @@ static const NSString * GAMessageViewStyleKey = @"GAMessageViewStyleKey";
     messageLabel.textColor = style.messageColor;
     messageLabel.backgroundColor = [UIColor clearColor];
     messageLabel.alpha = 1.0;
+    messageLabel.numberOfLines = 0;
     messageLabel.text = msg;
   CGSize sizeMessageLabel = [messageLabel sizeThatFits:CGSizeMake(view.bounds.size.width * style.maxWidthPercentage-style.horizontalPadding*2, 0) ];
   messageLabel.frame = CGRectMake(style.horizontalPadding, style.verticalPadding, sizeMessageLabel.width, sizeMessageLabel.height);
