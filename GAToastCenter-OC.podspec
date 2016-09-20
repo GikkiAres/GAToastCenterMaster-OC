@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source       = { :git => "http://EXAMPLE/GAToastCenter-OC.git", :tag => "0.0.1" }
-s.source       = { :git => "https://github.com/GikkiAres/GAToastCenterMaster-OC.git", :tag => "0.0.1" }
+s.source       = { :git => "https://github.com/GikkiAres/GAToastCenterMaster-OC.git", :tag => "0.0.2" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

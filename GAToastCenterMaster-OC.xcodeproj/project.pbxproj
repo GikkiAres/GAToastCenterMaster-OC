@@ -14,8 +14,8 @@
 		DC4C0E001D8901AB0033DB4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4C0DFE1D8901AB0033DB4A /* LaunchScreen.storyboard */; };
 		DC4C0E0C1D8902AC0033DB4A /* GAToastCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0E091D8902AC0033DB4A /* GAToastCenter.m */; };
 		DC4C0E0D1D8902AC0033DB4A /* GAToastStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0E0B1D8902AC0033DB4A /* GAToastStyle.m */; };
-		DC4C0E111D89247C0033DB4A /* DefaultActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0E101D89247C0033DB4A /* DefaultActivityView.m */; };
-		DC4C0E131D8924AC0033DB4A /* DefaultActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4C0E121D8924AC0033DB4A /* DefaultActivityView.xib */; };
+		DCAFF4CA1D90C3E600495FFB /* DefaultActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFF4C81D90C3E600495FFB /* DefaultActivityView.m */; };
+		DCAFF4CB1D90C3E600495FFB /* DefaultActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCAFF4C91D90C3E600495FFB /* DefaultActivityView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +32,9 @@
 		DC4C0E091D8902AC0033DB4A /* GAToastCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAToastCenter.m; sourceTree = "<group>"; };
 		DC4C0E0A1D8902AC0033DB4A /* GAToastStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAToastStyle.h; sourceTree = "<group>"; };
 		DC4C0E0B1D8902AC0033DB4A /* GAToastStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAToastStyle.m; sourceTree = "<group>"; };
-		DC4C0E0F1D89247C0033DB4A /* DefaultActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultActivityView.h; sourceTree = "<group>"; };
-		DC4C0E101D89247C0033DB4A /* DefaultActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultActivityView.m; sourceTree = "<group>"; };
-		DC4C0E121D8924AC0033DB4A /* DefaultActivityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultActivityView.xib; sourceTree = "<group>"; };
+		DCAFF4C71D90C3E600495FFB /* DefaultActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultActivityView.h; sourceTree = "<group>"; };
+		DCAFF4C81D90C3E600495FFB /* DefaultActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultActivityView.m; sourceTree = "<group>"; };
+		DCAFF4C91D90C3E600495FFB /* DefaultActivityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultActivityView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,23 +91,15 @@
 		DC4C0E071D8902020033DB4A /* GAToastCenter */ = {
 			isa = PBXGroup;
 			children = (
-				DC4C0E0E1D89245D0033DB4A /* DefaultActivityView */,
 				DC4C0E081D8902AC0033DB4A /* GAToastCenter.h */,
 				DC4C0E091D8902AC0033DB4A /* GAToastCenter.m */,
 				DC4C0E0A1D8902AC0033DB4A /* GAToastStyle.h */,
 				DC4C0E0B1D8902AC0033DB4A /* GAToastStyle.m */,
+				DCAFF4C71D90C3E600495FFB /* DefaultActivityView.h */,
+				DCAFF4C81D90C3E600495FFB /* DefaultActivityView.m */,
+				DCAFF4C91D90C3E600495FFB /* DefaultActivityView.xib */,
 			);
 			path = GAToastCenter;
-			sourceTree = "<group>";
-		};
-		DC4C0E0E1D89245D0033DB4A /* DefaultActivityView */ = {
-			isa = PBXGroup;
-			children = (
-				DC4C0E0F1D89247C0033DB4A /* DefaultActivityView.h */,
-				DC4C0E101D89247C0033DB4A /* DefaultActivityView.m */,
-				DC4C0E121D8924AC0033DB4A /* DefaultActivityView.xib */,
-			);
-			path = DefaultActivityView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4C0E001D8901AB0033DB4A /* LaunchScreen.storyboard in Resources */,
-				DC4C0E131D8924AC0033DB4A /* DefaultActivityView.xib in Resources */,
+				DCAFF4CB1D90C3E600495FFB /* DefaultActivityView.xib in Resources */,
 				DC4C0DFD1D8901AB0033DB4A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4C0DF81D8901AB0033DB4A /* ViewController.m in Sources */,
-				DC4C0E111D89247C0033DB4A /* DefaultActivityView.m in Sources */,
+				DCAFF4CA1D90C3E600495FFB /* DefaultActivityView.m in Sources */,
 				DC4C0DF51D8901AB0033DB4A /* AppDelegate.m in Sources */,
 				DC4C0E0C1D8902AC0033DB4A /* GAToastCenter.m in Sources */,
 				DC4C0E0D1D8902AC0033DB4A /* GAToastStyle.m in Sources */,
